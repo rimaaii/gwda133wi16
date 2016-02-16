@@ -32,30 +32,25 @@
     a:hover{
     	color: orange;
     }
-
     #hero{
       padding: 15px;
       background:  url(https://c2.staticflickr.com/4/3369/3524603348_259b91a3e5_o.jpg);
       background-size: cover;
       background-repeat: no-repeat;            
     }
-
     #what-we-do{
       background-color: #B8BCBD;
       padding: 15px;
     }
-
     #who-we-are{
       background-color: black;
       padding: 15px;
     }
-
     nav{
       position: absolute;
       top: 50px;
       right: 80px;
     }
-
   </style>
 </head>
 <body>
@@ -76,10 +71,20 @@
 </section>
 <section id="what-we-do">
   <h1>What we do</h1>
-  <p>Place 3 icons here illustrating what we do.</p>
+  <p>We provide web design and development services. <a href="" onclick="showPrices(event)">Please see our price list.</a></p>
 </section>
 <section id="who-we-are">
 <h1>Who we are</h1>
 <img src="http://gravatar.com/avatar/84b921aa2a51d74054cf78cc38c58973?s=512">
 </section>
+<script>
+//open up your website in a new window
+//will be blocked by most browsers
+window.open("sale.html","","height=300,width=400,top=300,left=800");
+function showPrices(event){
+	window.open("prices.html","","height=600,width=500,top=300,left=800");
+	event.preventDefault();
+}
+
+</script>
 </body>
