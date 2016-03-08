@@ -1,3 +1,103 @@
-WEBSITE UNDER CONSTRUCTION!
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>MiuWeb.me | Home</title>
+<link href='https://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>  
+  <style>
+    body{
+      margin: 0;
+      text-align: center;
+      font-family: sans-serif;
+    }
+    h1{
+    	font-family: 'Holtwood One SC', serif;
+    	text-shadow: 2px 2px 2px grey;
+    	transition: 1s all;
+    	font-size: 34px;
+    	color: #FFF;
+    }
+    
+    h1:hover{
+    	font-size: 36px;
+    	text-shadow: 2px 2px 5px orange;
+    }
+    a{
+    	color: #FFF;
+    	text-decoration: none;	
+    	transition: 1s all;
+    }
+    a:visited{
+    	color: grey;
+    }
+    a:hover{
+    	color: orange;
+    }
+    #hero{
+      padding: 15px;
+      background:  url(https://c2.staticflickr.com/4/3369/3524603348_259b91a3e5_o.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-attachment: fixed;         
+    }
+    #what-we-do{
+      background-color: #B8BCBD;
+      padding: 15px;
+    }
+    #who-we-are{
+      background-color: black;
+      padding: 15px;
+    }
+    #where-we-are{
+      height: 400px;
+      padding: 40px;
+      background:  url(https://c2.staticflickr.com/4/3369/3524603348_259b91a3e5_o.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-attachment: fixed; 
+    }
+    nav{
+      position: absolute;
+      top: 50px;
+      right: 80px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    Home | <a href="#who-we-are">About</a> | <a href="portfolio.html">Portfolio</a> | Contact 
+  </nav>
+<section id="hero">
+  <img src="http://i.imgur.com/VHRD9dx.png">  
+  <h1>☆ Creative Designs from Downtown Miami. ☆</h1>
+  <h2>We are a small creative university located in the heart of downtown Miami. Our students love to design.	</h2>
 
-Check back soon for updates :)
+
+
+  <a href="http://www.linkedin.com/in/rimagerhard">LinkedIn</a> - <a href="#">Twitter</a> - Instagram
+</section>
+<section id="what-we-do">
+  <h1>What we do</h1>
+  <p>We provide web design and development services. <a href="" onclick="showPrices(event)">Please see our price list.</a></p>
+<!-- SnapWidget -->
+<iframe src="http://snapwidget.com/in/?u=bWl1d2VifGlufDEyNXwzfDN8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3xubw==&ve=080316" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:390px; height:390px"></iframe>  
+<a href="portfolio.html">See more</a> 
+</section>
+<section id="who-we-are">
+<h1>Who we are</h1>
+<img src="http://gravatar.com/avatar/84b921aa2a51d74054cf78cc38c58973?s=512">
+</section>
+<section id="where-we-are">
+  <h1>Where we are</h1>
+  <p>We are located in beautiful downtown Miami, FL.</p>
+</section>
+<script>
+//open up your website in a new window
+//will be blocked by most browsers
+window.open("sale.html","","height=300,width=400,top=300,left=800");
+function showPrices(event){
+	window.open("prices.html","","height=600,width=500,top=300,left=800");
+	event.preventDefault();
+}
+
+</script>
+</body>
